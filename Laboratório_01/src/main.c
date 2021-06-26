@@ -8,22 +8,25 @@
 
 uint8_t LED_D1 = 0;
 uint8_t LED_D4 = 0;
-uint32_t loop = 1000000;
-uint32_t tempo = 0;
+
 uint32_t frequencia = 24000000;
 
-void SysTick_Handler(void){
+
+//void SysTick_Handler(void){
   //LED_D1 ^= GPIO_PIN_1; // Troca estado do LED D1
   //GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_1, LED_D1); // Acende ou apaga LED D1
   
-  LED_D4 ^= GPIO_PIN_0; // Troca estado do LED D4
-  GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, LED_D4); // Acende ou apaga LED D4
+  //LED_D4 ^= GPIO_PIN_0; // Troca estado do LED D4
+  //GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, LED_D4); // Acende ou apaga LED D4
   
   //tempo ++;
   
-} // SysTick_Handler
+//} // SysTick_Handler
 
 void main(void){
+  
+  uint32_t loop = 2000; // É dividido por 3 pois uma iteração no loop são 3 instruções em assembly
+  
   SysTickPeriodSet(frequencia); // f = 1Hz para clock = 24MHz
   
   SysCtlPeripheralEnable(SYSCTL_PERIPH_GPION); // Habilita GPIO N (LED D1 = PN1, LED D2 = PN0, LED D3 = PF4, LED D4 = PF0)
@@ -46,10 +49,27 @@ void main(void){
   GPIOPinTypeGPIOInput(GPIO_PORTJ_BASE, GPIO_PIN_0 | GPIO_PIN_1); // push-buttons SW1 e SW2 como entrada
   GPIOPadConfigSet(GPIO_PORTJ_BASE, GPIO_PIN_0 | GPIO_PIN_1, GPIO_STRENGTH_2MA, GPIO_PIN_TYPE_STD_WPU);
 
-  SysTickIntEnable();
-  SysTickEnable();
+  //SysTickIntEnable();
+  //SysTickEnable();
 
   while(1){    
+    
+    
+    uint32_t i, j;
+    for(i=0; i<loop; i++)
+    {
+      for(j=0; j<loop; j++)
+      {
+        if(i == j)
+        {
+          continue;
+        }
+      }
+    }
+    
+    LED_D4 ^= GPIO_PIN_0; // Troca estado do LED D4
+    GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, LED_D4); // Acende ou apaga LED D4
+    
     
     //if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0) == GPIO_PIN_0) // Testa estado do push-button SW1
     //  GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, 0); // Apaga LED D3

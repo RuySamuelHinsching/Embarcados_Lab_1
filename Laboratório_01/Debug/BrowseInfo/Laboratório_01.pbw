@@ -47454,6 +47454,20 @@
     "scope": null
   },
   {
+    "ID": "c:@frequencia",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "frequencia",
+    "location": {
+      "column": "10",
+      "line": "12",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "frequencia",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@SysTick_Handler",
     "What": "Function",
     "defdec": "Def",
@@ -47492,6 +47506,20 @@
       "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
     },
     "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@loop",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "loop",
+    "location": {
+      "column": "10",
+      "line": "15",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "loop",
     "origin": "project_file",
     "scope": null
   },
@@ -47573,6 +47601,160 @@
     "location": {
       "column": "6",
       "line": "26",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "27",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "27",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "27",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "28",
       "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
     },
     "name": "main",
@@ -47671,6 +47853,62 @@
     "location": {
       "column": "12",
       "line": "53",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "a",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2241@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2242@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2241@F@main@a",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "a",
+    "location": {
+      "column": "12",
+      "line": "55",
+      "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
+    },
+    "name": "a",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2242@F@main@a",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "a",
+    "location": {
+      "column": "12",
+      "line": "55",
       "path": "C:\\Users\\Usuario\\Desktop\\Projetos_TIVA\\TM4C1294_Bare_IAR9-main\\Projects\\Laborat\u00f3rio_01\\src\\main.c"
     },
     "name": "a",
